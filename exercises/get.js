@@ -17,6 +17,11 @@ const sourceObject = {
 
 // Your code :
 
+{get: function () {return this.num;}}
+{get: function () {return this.bool;}}
+{get: function () {return this.str;}}
+{get: function () {return this.log;}}
+
 //* Begin of tests
 const assert = require('assert')
 
