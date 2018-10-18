@@ -10,25 +10,23 @@
  */
 
 // Your code :
-    function max(number1, number2){
-        if(number1 > number2){
-            return number1
-        }
-        else
-        {
-            return number2
-        }
+function max(num1, num2){
+    if(num1 < num2){
+        return num2;
     }
-
+    else{
+        return num1;
+    }
+}
 //* Begin of tests
-const assert = require('assert')
+const assert = require('assert');
 
-assert.strictEqual(typeof max, 'function')
-assert.strictEqual(max.length, 2)
-assert.strictEqual(max.toString().includes('Math.max'), false)
-assert.notStrictEqual(max, Math.max)
-assert.strictEqual(max(0, -2), 0)
-assert.strictEqual(max(-1, 10), 10)
-assert.strictEqual(max(-13.2, -222), -13.2)
-assert.strictEqual(max(132, 133), 133)
+assert.strictEqual(typeof max, 'function');
+assert.strictEqual(max.length, 2);
+assert.strictEqual(max.toString().includes('Math.max'), false);
+assert.notStrictEqual(max, Math.max);
+assert.strictEqual(max(0, -2), 0);
+assert.strictEqual(max(-1, 10), 10);
+assert.strictEqual(max(-13.2, -222), -13.2);
+assert.strictEqual(max(132, 133), 133);
 // End of tests */

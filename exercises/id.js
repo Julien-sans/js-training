@@ -8,8 +8,8 @@
 
 // Your code :
 
-function id(argument){
-    return(argument);
+function id(arg){
+    return arg;
 }
 
 //* Begin of tests
