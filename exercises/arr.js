@@ -8,10 +8,10 @@
 
 // Your code :
 
-const arr = [4, '2'];
-
 //* Begin of tests
 const assert = require('assert')
+
+const arr = [4, '2'];
 
 assert.strictEqual(Array.isArray(arr), true)
 assert.strictEqual(arr[0], 4)
