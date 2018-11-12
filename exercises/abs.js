@@ -19,6 +19,7 @@ function abs(num){
     }
     else{
         return -num;
+        
     }
 }
 //* Begin of tests
